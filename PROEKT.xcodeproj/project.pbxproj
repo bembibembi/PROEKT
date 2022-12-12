@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FBDD640A2947270800AB1222 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD64092947270800AB1222 /* main.swift */; };
+		FBDD6415294728A900AB1222 /* IMPORT.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD6414294728A900AB1222 /* IMPORT.swift */; };
+		FBDD6417294729BC00AB1222 /* IMPORTINKG.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD6416294729BC00AB1222 /* IMPORTINKG.swift */; };
+		FBDD641929472B1B00AB1222 /* KURUTTIME.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD641829472B1B00AB1222 /* KURUTTIME.swift */; };
+		FBDD641B29472FBA00AB1222 /* SKLADswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD641A29472FBA00AB1222 /* SKLADswift.swift */; };
+		FBDD641D29473FF700AB1222 /* tovar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD641C29473FF700AB1222 /* tovar.swift */; };
+		FBDD641F2947400600AB1222 /* clients.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD641E2947400600AB1222 /* clients.swift */; };
+		FBDD6421294741A100AB1222 /* IMPORTINRUSSIA.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD6420294741A100AB1222 /* IMPORTINRUSSIA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		FBDD64062947270800AB1222 /* PROEKT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PROEKT; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDD64092947270800AB1222 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FBDD6414294728A900AB1222 /* IMPORT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMPORT.swift; sourceTree = "<group>"; };
+		FBDD6416294729BC00AB1222 /* IMPORTINKG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMPORTINKG.swift; sourceTree = "<group>"; };
+		FBDD641829472B1B00AB1222 /* KURUTTIME.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KURUTTIME.swift; sourceTree = "<group>"; };
+		FBDD641A29472FBA00AB1222 /* SKLADswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKLADswift.swift; sourceTree = "<group>"; };
+		FBDD641C29473FF700AB1222 /* tovar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tovar.swift; sourceTree = "<group>"; };
+		FBDD641E2947400600AB1222 /* clients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clients.swift; sourceTree = "<group>"; };
+		FBDD6420294741A100AB1222 /* IMPORTINRUSSIA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMPORTINRUSSIA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +55,8 @@
 		FBDD63FD2947270700AB1222 = {
 			isa = PBXGroup;
 			children = (
-				FBDD64082947270800AB1222 /* PROEKT */,
 				FBDD64072947270800AB1222 /* Products */,
+				FBDD64082947270800AB1222 /* PROEKT */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				FBDD64092947270800AB1222 /* main.swift */,
+				FBDD641829472B1B00AB1222 /* KURUTTIME.swift */,
+				FBDD641A29472FBA00AB1222 /* SKLADswift.swift */,
+				FBDD6414294728A900AB1222 /* IMPORT.swift */,
+				FBDD6416294729BC00AB1222 /* IMPORTINKG.swift */,
+				FBDD6420294741A100AB1222 /* IMPORTINRUSSIA.swift */,
+				FBDD641C29473FF700AB1222 /* tovar.swift */,
+				FBDD641E2947400600AB1222 /* clients.swift */,
 			);
 			path = PROEKT;
 			sourceTree = "<group>";
@@ -119,6 +140,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBDD6421294741A100AB1222 /* IMPORTINRUSSIA.swift in Sources */,
+				FBDD641F2947400600AB1222 /* clients.swift in Sources */,
+				FBDD641929472B1B00AB1222 /* KURUTTIME.swift in Sources */,
+				FBDD6417294729BC00AB1222 /* IMPORTINKG.swift in Sources */,
+				FBDD641B29472FBA00AB1222 /* SKLADswift.swift in Sources */,
+				FBDD6415294728A900AB1222 /* IMPORT.swift in Sources */,
+				FBDD641D29473FF700AB1222 /* tovar.swift in Sources */,
 				FBDD640A2947270800AB1222 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
