@@ -19,9 +19,8 @@ struct Russia:ImportinRUSSIAProtocol{
     var otzyv: String
     
     func greeting() {
-     print("По каким облостям внутри Российской Федерации\(kuda) , cпособ доставки - \(sposob), способ оплаты - \(cost), время доставки\(time), отзыв клиента\(otzyv)")
+     print("По каким облостям внутри Российской Федерации - \(kuda),\ncпособ доставки - \(sposob),\nспособ оплаты - \(cost),\nвремя доставки - \(time),\nотзыв клиента - \(otzyv)")
     }
-    
 }
 
 

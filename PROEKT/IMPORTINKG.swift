@@ -6,7 +6,7 @@ protocol ImportinKGProtocol{
     var otzyv: String  {get set}
     func greeting ()
 }
-struct Bihkek:ImportinKGProtocol{
+struct Bishkek:ImportinKGProtocol{
     var sposob: String
 
     var cost: String
@@ -16,7 +16,7 @@ struct Bihkek:ImportinKGProtocol{
     var otzyv: String
 
     func greeting() {
-        print("Способ доставки внутри Кыргызстана - \(sposob), способ оплаты - \(cost), время доставки\(time), отзыв клиента\(otzyv)")
+        print("Способ доставки внутри Кыргызстана - \(sposob),\nспособ оплаты - \(cost),\nвремя доставки - \(time),\nотзыв клиента - \(otzyv)")
     }
 
 }
@@ -31,7 +31,7 @@ struct Tokmok:ImportinKGProtocol{
     var otzyv: String
 
     func greeting() {
-     print("Способ доставки внутри Российской Федерации - \(sposob), способ оплаты - \(cost), время доставки\(time), отзыв клиента\(otzyv)")
+     print("Способ доставки внутри внутри Кыргызстана  - \(sposob),\nспособ оплаты - \(cost),\nвремя доставки - \(time),\nотзыв клиента - \(otzyv)")
     }
 
 }
@@ -46,7 +46,7 @@ struct IK:ImportinKGProtocol {
     var otzyv: String
     
     func greeting() {
-     print("Способ доставки внутри Кыргызстана - \(sposob), способ оплаты - \(cost), время доставки\(time), отзыв клиента\(otzyv)")
+     print("Способ доставки внутри Кыргызстана - \(sposob), способ оплаты - \(cost), время доставки - \(time), отзыв клиента - \(otzyv)")
     }
 }
 struct Talas:ImportinKGProtocol {
@@ -59,7 +59,7 @@ struct Talas:ImportinKGProtocol {
     var otzyv: String
     
     func greeting() {
-        print("Способ доставки внутри Кыргызстана - \(sposob), способ оплаты - \(cost), время доставки\(time), отзыв клиента\(otzyv)")
+        print("Способ доставки внутри Кыргызстана - \(sposob), способ оплаты - \(cost), время доставки - \(time), отзыв клиента - \(otzyv)")
     }
 }
 struct Naryn:ImportinKGProtocol {
@@ -72,7 +72,7 @@ struct Naryn:ImportinKGProtocol {
     var otzyv: String
     
     func greeting() {
-        print("Способ доставки внутри Кыргызстана - \(sposob), способ оплаты - \(cost), время доставки\(time), отзыв клиента\(otzyv)")
+        print("Способ доставки внутри Кыргызстана - \(sposob), способ оплаты - \(cost), время доставки - \(time), отзыв клиента - \(otzyv)")
     }
     
 }

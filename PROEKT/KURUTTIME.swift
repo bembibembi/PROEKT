@@ -20,6 +20,7 @@ class KurutTime{
     self.Import = Import
 }
     func printInfo(){
-        print("прибыль оргонизации \(profit),год работы\(year),местоположение\(loc),агенты\(coworkers),\(Import)")
+        print("прибыль оргонизации - \(profit)\nгод работы -\(year)\nместоположение - \(loc)\nагенты - \(coworkers)\n\(Import)")
     }
 }
+
